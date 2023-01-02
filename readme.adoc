@@ -14,9 +14,44 @@ image:https://img.shields.io/maven-central/v/{lib-group}/{lib-name}[link="https:
 
 The ASCII standard character set as UByte constants.
 
+Helpful for implementing low level parsers.
+
 == Import
 
 [source, kotlin, subs="attributes"]
 ----
   implementation("{lib-group}:{lib-name}:{lib-version}")
 ----
+
+== Examples
+
+.Byte Checks
+[source, kotlin]
+----
+internal fun UByte.isWhitespace() = this == ASCII_SPACE
+
+internal fun UByte.isTab() = this == ASCII_TAB
+
+internal fun UByte.isHexDigit() = when(this) {
+  in ASCII_DIGIT_0 .. ASCII_DIGIT_9 -> true
+  in ASCII_UPPER_A .. ASCII_UPPER_F -> true
+  in ASCII_LOWER_A .. ASCII_LOWER_F -> true
+  else                              -> false
+}
+
+----
+
+== Version History
+
+[%header, cols="1m,2,7"]
+|===
+| Version | Documentation | Notes
+
+| v1.1.0
+| link:https://{gh-group}.github.io/{gh-name}/dokka/1.1.0/{lib-name}/{lib-package}/index.html[Dokka]
+| Add common aliases and expanded alternatives for control characters.
+
+| v1.0.0
+| link:https://{gh-group}.github.io/{gh-name}/dokka/1.0.0/{lib-name}/{lib-package}/index.html[Dokka]
+| Initial Release
+|===
