@@ -6,8 +6,39 @@ package io.klibs.ascii.ubyte
  * ```
  * '\u0000'
  * ```
+ *
+ * @see ASCII_NIL
+ * @see ASCII_NULL
  */
 const val ASCII_NUL: UByte = 0u
+
+/**
+ * ASCII Null
+ *
+ * ```
+ * '\u0000'
+ * ```
+ *
+ * @see ASCII_NUL
+ * @see ASCII_NULL
+ *
+ * @since 1.1.0
+ */
+const val ASCII_NIL: UByte = 0u
+
+/**
+ * ASCII Null
+ *
+ * ```
+ * '\u0000'
+ * ```
+ *
+ * @see ASCII_NUL
+ * @see ASCII_NIL
+ *
+ * @since 1.1.0
+ */
+const val ASCII_NULL: UByte = 0u
 
 /**
  * ASCII Start of Heading
@@ -15,8 +46,23 @@ const val ASCII_NUL: UByte = 0u
  * ```
  * '\u0001'
  * ```
+ *
+ * @see ASCII_START_OF_HEADING
  */
 const val ASCII_SOH: UByte = 1u
+
+/**
+ * ASCII Start of Heading
+ *
+ * ```
+ * '\u0001'
+ * ```
+ *
+ * @see ASCII_SOH
+ *
+ * @since 1.1.0
+ */
+const val ASCII_START_OF_HEADING: UByte = 1u
 
 /**
  * ASCII Start of Text
@@ -24,8 +70,23 @@ const val ASCII_SOH: UByte = 1u
  * ```
  * '\u0002'
  * ```
+ *
+ * @see ASCII_START_OF_TEXT
  */
 const val ASCII_STX: UByte = 2u
+
+/**
+ * ASCII Start of Text
+ *
+ * ```
+ * '\u0002'
+ * ```
+ *
+ * @see ASCII_STX
+ *
+ * @since 1.1.0
+ */
+const val ASCII_START_OF_TEXT: UByte = 2u
 
 /**
  * ASCII End of Text
@@ -33,8 +94,23 @@ const val ASCII_STX: UByte = 2u
  * ```
  * '\u0003'
  * ```
+ *
+ * @see ASCII_END_OF_TEXT
  */
 const val ASCII_ETX: UByte = 3u
+
+/**
+ * ASCII End of Text
+ *
+ * ```
+ * '\u0003'
+ * ```
+ *
+ * @see ASCII_ETX
+ *
+ * @since 1.1.0
+ */
+const val ASCII_END_OF_TEXT: UByte = 3u
 
 /**
  * ASCII End of Transmission
@@ -42,6 +118,21 @@ const val ASCII_ETX: UByte = 3u
  * ```
  * '\u0004'
  * ```
+ *
+ * @see ASCII_END_OF_TRANSMISSION
+ *
+ * @since 1.1.0
+ */
+const val ASCII_EOT: UByte = 4u
+
+/**
+ * ASCII End of Transmission
+ *
+ * ```
+ * '\u0004'
+ * ```
+ *
+ * @see ASCII_EOT
  */
 const val ASCII_END_OF_TRANSMISSION: UByte = 4u
 
@@ -51,8 +142,23 @@ const val ASCII_END_OF_TRANSMISSION: UByte = 4u
  * ```
  * '\u0005'
  * ```
+ *
+ * @see ASCII_ENQUIRY
  */
 const val ASCII_ENQ: UByte = 5u
+
+/**
+ * ASCII Enquiry
+ *
+ * ```
+ * '\u0005'
+ * ```
+ *
+ * @see ASCII_ENQ
+ *
+ * @since 1.1.0
+ */
+const val ASCII_ENQUIRY: UByte = 5u
 
 /**
  * ASCII Acknowledge
@@ -60,8 +166,23 @@ const val ASCII_ENQ: UByte = 5u
  * ```
  * '\u0006'
  * ```
+ *
+ * @see ASCII_ACKNOWLEDGE
  */
 const val ASCII_ACK: UByte = 6u
+
+/**
+ * ASCII Acknowledge
+ *
+ * ```
+ * '\u0006'
+ * ```
+ *
+ * @see ASCII_ACK
+ *
+ * @since 1.1.0
+ */
+const val ASCII_ACKNOWLEDGE: UByte = 6u
 
 /**
  * ASCII Bell Character
@@ -78,8 +199,23 @@ const val ASCII_BELL: UByte = 7u
  * ```
  * '\u0008'
  * ```
+ *
+ * @see ASCII_BACKSPACE
  */
 const val ASCII_BS: UByte = 8u
+
+/**
+ * ASCII Backspace
+ *
+ * ```
+ * '\u0008'
+ * ```
+ *
+ * @see ASCII_BS
+ *
+ * @since 1.1.0
+ */
+const val ASCII_BACKSPACE: UByte = 8u
 
 /**
  * ASCII Horizontal Tab
@@ -96,8 +232,23 @@ const val ASCII_TAB: UByte = 9u
  * ```
  * '\n'
  * ```
+ *
+ * @see ASCII_LINE_FEED
  */
 const val ASCII_LF: UByte = 10u
+
+/**
+ * ASCII Line Feed
+ *
+ * ```
+ * '\n'
+ * ```
+ *
+ * @see ASCII_LF
+ *
+ * @since 1.1.0
+ */
+const val ASCII_LINE_FEED: UByte = 10u
 
 /**
  * ASCII Vertical Tab
@@ -105,8 +256,23 @@ const val ASCII_LF: UByte = 10u
  * ```
  * '\u000B'
  * ```
+ *
+ * @see ASCII_VERTICAL_TAB
  */
 const val ASCII_VT: UByte = 11u
+
+/**
+ * ASCII Vertical Tab
+ *
+ * ```
+ * '\u000B'
+ * ```
+ *
+ * @see ASCII_VT
+ *
+ * @since 1.1.0
+ */
+const val ASCII_VERTICAL_TAB: UByte = 11u
 
 /**
  * ASCII Form Feed
@@ -114,8 +280,23 @@ const val ASCII_VT: UByte = 11u
  * ```
  * '\u000C'
  * ```
+ *
+ * @see ASCII_FORM_FEED
  */
 const val ASCII_FF: UByte = 12u
+
+/**
+ * ASCII Form Feed
+ *
+ * ```
+ * '\u000C'
+ * ```
+ *
+ * @see ASCII_FF
+ *
+ * @since 1.1.0
+ */
+const val ASCII_FORM_FEED: UByte = 12u
 
 /**
  * ASCII Carriage Return
@@ -123,8 +304,23 @@ const val ASCII_FF: UByte = 12u
  * ```
  * '\r'
  * ```
+ *
+ * @see ASCII_CARRIAGE_RETURN
  */
 const val ASCII_CR: UByte = 13u
+
+/**
+ * ASCII Carriage Return
+ *
+ * ```
+ * '\r'
+ * ```
+ *
+ * @see ASCII_CR
+ *
+ * @since 1.1.0
+ */
+const val ASCII_CARRIAGE_RETURN: UByte = 13u
 
 /**
  * ASCII Shift Out
@@ -132,8 +328,23 @@ const val ASCII_CR: UByte = 13u
  * ```
  * '\u000E'
  * ```
+ *
+ * @see ASCII_SHIFT_OUT
  */
 const val ASCII_SO: UByte = 14u
+
+/**
+ * ASCII Shift Out
+ *
+ * ```
+ * '\u000E'
+ * ```
+ *
+ * @see ASCII_SO
+ *
+ * @since 1.1.0
+ */
+const val ASCII_SHIFT_OUT: UByte = 14u
 
 /**
  * ASCII Shift In
@@ -141,8 +352,23 @@ const val ASCII_SO: UByte = 14u
  * ```
  * '\u000F'
  * ```
+ *
+ * @see ASCII_SHIFT_IN
  */
 const val ASCII_SI: UByte = 15u
+
+/**
+ * ASCII Shift In
+ *
+ * ```
+ * '\u000F'
+ * ```
+ *
+ * @see ASCII_SI
+ *
+ * @since 1.1.0
+ */
+const val ASCII_SHIFT_IN: UByte = 15u
 
 /**
  * ASCII Data Link Escape
@@ -150,8 +376,23 @@ const val ASCII_SI: UByte = 15u
  * ```
  * '\u0010'
  * ```
+ *
+ * @see ASCII_DATA_LINK_ESCAPE
  */
 const val ASCII_DLE: UByte = 16u
+
+/**
+ * ASCII Data Link Escape
+ *
+ * ```
+ * '\u0010'
+ * ```
+ *
+ * @see ASCII_DLE
+ *
+ * @since 1.1.0
+ */
+const val ASCII_DATA_LINK_ESCAPE: UByte = 16u
 
 /**
  * ASCII Device Control 1
@@ -159,8 +400,23 @@ const val ASCII_DLE: UByte = 16u
  * ```
  * '\u0011'
  * ```
+ *
+ * @see ASCII_DEVICE_CONTROL_1
  */
 const val ASCII_DC1: UByte = 17u
+
+/**
+ * ASCII Device Control 1
+ *
+ * ```
+ * '\u0011'
+ * ```
+ *
+ * @see ASCII_DC1
+ *
+ * @since 1.1.0
+ */
+const val ASCII_DEVICE_CONTROL_1: UByte = 17u
 
 /**
  * ASCII Device Control 2
@@ -168,8 +424,23 @@ const val ASCII_DC1: UByte = 17u
  * ```
  * '\u0012'
  * ```
+ *
+ * @see ASCII_DEVICE_CONTROL_2
  */
 const val ASCII_DC2: UByte = 18u
+
+/**
+ * ASCII Device Control 2
+ *
+ * ```
+ * '\u0012'
+ * ```
+ *
+ * @see ASCII_DC2
+ *
+ * @since 1.1.0
+ */
+const val ASCII_DEVICE_CONTROL_2: UByte = 18u
 
 /**
  * ASCII Device Control 3
@@ -177,8 +448,23 @@ const val ASCII_DC2: UByte = 18u
  * ```
  * '\u0013'
  * ```
+ *
+ * @see ASCII_DEVICE_CONTROL_3
  */
 const val ASCII_DC3: UByte = 19u
+
+/**
+ * ASCII Device Control 3
+ *
+ * ```
+ * '\u0013'
+ * ```
+ *
+ * @see ASCII_DC3
+ *
+ * @since 1.1.0
+ */
+const val ASCII_DEVICE_CONTROL_3: UByte = 19u
 
 /**
  * ASCII Device Control 4
@@ -186,8 +472,23 @@ const val ASCII_DC3: UByte = 19u
  * ```
  * '\u0014'
  * ```
+ *
+ * @see ASCII_DEVICE_CONTROL_4
  */
 const val ASCII_DC4: UByte = 20u
+
+/**
+ * ASCII Device Control 4
+ *
+ * ```
+ * '\u0014'
+ * ```
+ *
+ * @see ASCII_DC4
+ *
+ * @since 1.1.0
+ */
+const val ASCII_DEVICE_CONTROL_4: UByte = 20u
 
 /**
  * ASCII Negative Acknowledge
@@ -195,8 +496,23 @@ const val ASCII_DC4: UByte = 20u
  * ```
  * '\u0015'
  * ```
+ *
+ * @see ASCII_NEGATIVE_ACKNOWLEDGE
  */
 const val ASCII_NAK: UByte = 21u
+
+/**
+ * ASCII Negative Acknowledge
+ *
+ * ```
+ * '\u0015'
+ * ```
+ *
+ * @see ASCII_NAK
+ *
+ * @since 1.1.0
+ */
+const val ASCII_NEGATIVE_ACKNOWLEDGE: UByte = 21u
 
 /**
  * ASCII Synchronize
@@ -204,8 +520,23 @@ const val ASCII_NAK: UByte = 21u
  * ```
  * '\u0016'
  * ```
+ *
+ * @see ASCII_SYNCHRONOUS_IDLE
  */
 const val ASCII_SYN: UByte = 22u
+
+/**
+ * ASCII Synchronize
+ *
+ * ```
+ * '\u0016'
+ * ```
+ *
+ * @see ASCII_SYN
+ *
+ * @since 1.1.0
+ */
+const val ASCII_SYNCHRONOUS_IDLE: UByte = 22u
 
 /**
  * ASCII End of Transmission Block
@@ -213,8 +544,23 @@ const val ASCII_SYN: UByte = 22u
  * ```
  * '\u0017'
  * ```
+ *
+ * @see ASCII_END_OF_TRANSMISSION_BLOCK
  */
 const val ASCII_ETB: UByte = 23u
+
+/**
+ * ASCII End of Transmission Block
+ *
+ * ```
+ * '\u0017'
+ * ```
+ *
+ * @see ASCII_ETB
+ *
+ * @since 1.1.0
+ */
+const val ASCII_END_OF_TRANSMISSION_BLOCK: UByte = 23u
 
 /**
  * ASCII Cancel
@@ -231,8 +577,23 @@ const val ASCII_CANCEL: UByte = 24u
  * ```
  * '\u0019'
  * ```
+ *
+ * @see ASCII_END_OF_MEDIUM
  */
 const val ASCII_EM: UByte = 25u
+
+/**
+ * ASCII End of Medium
+ *
+ * ```
+ * '\u0019'
+ * ```
+ *
+ * @see ASCII_EM
+ *
+ * @since 1.1.0
+ */
+const val ASCII_END_OF_MEDIUM: UByte = 25u
 
 /**
  * ASCII Substitute
@@ -240,8 +601,23 @@ const val ASCII_EM: UByte = 25u
  * ```
  * '\u001A'
  * ```
+ *
+ * @see ASCII_SUBSTITUTE
  */
 const val ASCII_SUB: UByte = 26u
+
+/**
+ * ASCII Substitute
+ *
+ * ```
+ * '\u001A'
+ * ```
+ *
+ * @see ASCII_SUB
+ *
+ * @since 1.1.0
+ */
+const val ASCII_SUBSTITUTE: UByte = 26u
 
 /**
  * ASCII Escape
@@ -249,8 +625,23 @@ const val ASCII_SUB: UByte = 26u
  * ```
  * '\u001B'
  * ```
+ *
+ * @see ASCII_ESCAPE
  */
 const val ASCII_ESC: UByte = 27u
+
+/**
+ * ASCII Escape
+ *
+ * ```
+ * '\u001B'
+ * ```
+ *
+ * @see ASCII_ESC
+ *
+ * @since 1.1.0
+ */
+const val ASCII_ESCAPE: UByte = 27u
 
 /**
  * ASCII File Separator
@@ -258,8 +649,23 @@ const val ASCII_ESC: UByte = 27u
  * ```
  * '\u001C'
  * ```
+ *
+ * @see ASCII_FILE_SEPARATOR
  */
 const val ASCII_FS: UByte = 28u
+
+/**
+ * ASCII File Separator
+ *
+ * ```
+ * '\u001C'
+ * ```
+ *
+ * @see ASCII_FS
+ *
+ * @since 1.1.0
+ */
+const val ASCII_FILE_SEPARATOR: UByte = 28u
 
 /**
  * ASCII Group Separator
@@ -267,8 +673,23 @@ const val ASCII_FS: UByte = 28u
  * ```
  * '\u001D'
  * ```
+ *
+ * @see ASCII_GROUP_SEPARATOR
  */
 const val ASCII_GS: UByte = 29u
+
+/**
+ * ASCII Group Separator
+ *
+ * ```
+ * '\u001D'
+ * ```
+ *
+ * @see ASCII_GS
+ *
+ * @since 1.1.0
+ */
+const val ASCII_GROUP_SEPARATOR: UByte = 29u
 
 /**
  * ASCII Record Separator
@@ -276,8 +697,23 @@ const val ASCII_GS: UByte = 29u
  * ```
  * '\u001E'
  * ```
+ *
+ * @see ASCII_RECORD_SEPARATOR
  */
 const val ASCII_RS: UByte = 30u
+
+/**
+ * ASCII Record Separator
+ *
+ * ```
+ * '\u001E'
+ * ```
+ *
+ * @see ASCII_RS
+ *
+ * @since 1.1.0
+ */
+const val ASCII_RECORD_SEPARATOR: UByte = 30u
 
 /**
  * ASCII Unit Separator
@@ -285,8 +721,23 @@ const val ASCII_RS: UByte = 30u
  * ```
  * '\u001F'
  * ```
+ *
+ * @see ASCII_UNIT_SEPARATOR
  */
 const val ASCII_US: UByte = 31u
+
+/**
+ * ASCII Unit Separator
+ *
+ * ```
+ * '\u001F'
+ * ```
+ *
+ * @see ASCII_US
+ *
+ * @since 1.1.0
+ */
+const val ASCII_UNIT_SEPARATOR: UByte = 31u
 
 /**
  * ASCII Space
@@ -321,8 +772,39 @@ const val ASCII_DOUBLE_QUOTE: UByte = 34u
  * ```
  * '#'
  * ```
+ *
+ * @see ASCII_HASH
+ * @see ASCII_POUND
  */
 const val ASCII_NUMBER: UByte = 35u
+
+/**
+ * ASCII Number Sign
+ *
+ * ```
+ * '#'
+ * ```
+ *
+ * @see ASCII_NUMBER
+ * @see ASCII_POUND
+ *
+ * @since 1.1.0
+ */
+const val ASCII_HASH: UByte = 35u
+
+/**
+ * ASCII Number Sign
+ *
+ * ```
+ * '#'
+ * ```
+ *
+ * @see ASCII_NUMBER
+ * @see ASCII_HASH
+ *
+ * @since 1.1.0
+ */
+const val ASCII_POUND: UByte = 35u
 
 /**
  * ASCII Dollar Sign
@@ -348,8 +830,23 @@ const val ASCII_PERCENT: UByte = 37u
  * ```
  * '&'
  * ```
+ *
+ * @see ASCII_AMPERSAND
  */
 const val ASCII_AMP: UByte = 38u
+
+/**
+ * ASCII Ampersand
+ *
+ * ```
+ * '&'
+ * ```
+ *
+ * @see ASCII_AMP
+ *
+ * @since 1.1.0
+ */
+const val ASCII_AMPERSAND: UByte = 38u
 
 /**
  * ASCII Single Quote
@@ -357,8 +854,39 @@ const val ASCII_AMP: UByte = 38u
  * ```
  * '\''
  * ```
+ *
+ * @see ASCII_APOSTROPHE
+ * @see ASCII_SINGLE_QUOTE
  */
 const val ASCII_APOS: UByte = 39u
+
+/**
+ * ASCII Single Quote
+ *
+ * ```
+ * '\''
+ * ```
+ *
+ * @see ASCII_APOS
+ * @see ASCII_SINGLE_QUOTE
+ *
+ * @since 1.1.0
+ */
+const val ASCII_APOSTROPHE: UByte = 39u
+
+/**
+ * ASCII Single Quote
+ *
+ * ```
+ * '\''
+ * ```
+ *
+ * @see ASCII_APOS
+ * @see ASCII_APOSTROPHE
+ *
+ * @since 1.1.0
+ */
+const val ASCII_SINGLE_QUOTE: UByte = 39u
 
 /**
  * ASCII Left Parenthesis
@@ -411,8 +939,39 @@ const val ASCII_COMMA: UByte = 44u
  * ```
  * '-'
  * ```
+ *
+ * @see ASCII_DASH
+ * @see ASCII_HYPHEN
  */
 const val ASCII_MINUS: UByte = 45u
+
+/**
+ * ASCII Minus Sign
+ *
+ * ```
+ * '-'
+ * ```
+ *
+ * @see ASCII_MINUS
+ * @see ASCII_HYPHEN
+ *
+ * @since 1.1.0
+ */
+const val ASCII_DASH: UByte = 45u
+
+/**
+ * ASCII Minus Sign
+ *
+ * ```
+ * '-'
+ * ```
+ *
+ * @see ASCII_MINUS
+ * @see ASCII_DASH
+ *
+ * @since 1.1.0
+ */
+const val ASCII_HYPHEN: UByte = 45u
 
 /**
  * ASCII Period
@@ -546,8 +1105,23 @@ const val ASCII_SEMICOLON: UByte = 59u
  * ```
  * '<'
  * ```
+ *
+ * @see ASCII_LESS_THAN
  */
 const val ASCII_LESS: UByte = 60u
+
+/**
+ * ASCII Less Than Sign
+ *
+ * ```
+ * '<'
+ * ```
+ *
+ * @see ASCII_LESS
+ *
+ * @since 1.1.0
+ */
+const val ASCII_LESS_THAN: UByte = 60u
 
 /**
  * ASCII Equals Sign
@@ -564,6 +1138,21 @@ const val ASCII_EQUALS: UByte = 61u
  * ```
  * '>'
  * ```
+ *
+ * @see ASCII_GREATER_THAN
+ *
+ * @since 1.1.0
+ */
+const val ASCII_GREATER: UByte = 62u
+
+/**
+ * ASCII Greater Than Sign
+ *
+ * ```
+ * '>'
+ * ```
+ *
+ * @see ASCII_GREATER
  */
 const val ASCII_GREATER_THAN: UByte = 62u
 
@@ -1122,8 +1711,23 @@ const val ASCII_CURLY_OPEN: UByte = 123u
  * ```
  * '|'
  * ```
+ *
+ * @see ASCII_VERTICAL_LINE
  */
 const val ASCII_PIPE: UByte = 124u
+
+/**
+ * ASCII Vertical Line
+ *
+ * ```
+ * '|'
+ * ```
+ *
+ * @see ASCII_PIPE
+ *
+ * @since 1.1.0
+ */
+const val ASCII_VERTICAL_LINE: UByte = 124u
 
 /**
  * ASCII Right Curly Bracket
